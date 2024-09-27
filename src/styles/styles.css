@@ -1,0 +1,50 @@
+#container-holder
+{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.container{
+    margin: 5px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 90vh;
+    max-width: 30vh;
+    border: black 3px dotted;;
+}
+
+.container h1{
+    font-weight: bold;
+    height: 5vh;
+}
+
+.element
+{
+    padding: 5px;
+    margin: 5px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+
+}
+
+.element input{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    #container-holder{
+        flex-direction: column;
+        text-align: left;
+    }
+    .container{
+        justify-content: flex-start;
+        text-align: left;
+        height: 30vh;
+        width: 90vh;
+    }
+}
