@@ -1,0 +1,35 @@
+
+
+body{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#add-item
+{
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+#add-item:hover {
+    transform: scale(1.05);
+}
+
+
+h1, h2, h3, p
+{
+    font-family: main;
+    font-weight: lighter;
+}
+
+
+@font-face {
+    font-family: main;
+    src: url("../../public/fonts/Comfortaa-Regular.ttf");
+}
